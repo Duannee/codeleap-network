@@ -1,4 +1,4 @@
-# *Posts API (CodeLeap Network)*
+# *CodeLeap Network API*
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Duannee/codeleap-network/blob/main/LICENSE)
 
 ---
