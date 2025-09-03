@@ -1,5 +1,5 @@
 # *Posts API (CodeLeap Network)*
-
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Duannee/codeleap-network/blob/main/LICENSE)
 
 ---
 
