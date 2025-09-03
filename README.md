@@ -41,7 +41,7 @@ Additionally, it includes interactive documentation available on Swagger.
 1. Clone o repositório:
 
 ```
-git clone <URL_DO_REPOSITORIO>
+git clone <URL_REPO>
 cd codeleap-network
 
 ```
