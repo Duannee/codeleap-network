@@ -108,7 +108,7 @@ pytest --cov=posts --cov-report=term-missing
 
 
 ## *Contato*
-- Desenvolvedor: Duanne Moraes
+- Developer: Duanne Moraes
 - Email: duannemoraes.dev@gmail.com
 - LinkedIn: [Duanne Moraes Linkedin](https://www.linkedin.com/in/duanne-moraes-7a0376278/)
 
