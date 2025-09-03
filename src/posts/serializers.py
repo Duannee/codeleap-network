@@ -24,3 +24,8 @@ class PostUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Posts
         fields = ["title", "content"]
+
+    def validate(self, attrs):
+        if "username" in getattr(self, "initial_data", {}):
+            raise serializers.ValidationError({"username": "This field cannot be updated"})
+        return attrs
