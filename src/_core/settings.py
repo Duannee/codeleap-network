@@ -56,10 +56,7 @@ LOCAL_APPS = ["posts.apps.PostsConfig"]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
-CORS_ALLOW_ALL_ORIGINS = [
-    "https://codeleap-network-d77t.onrender.com",
-    "http://127.0.0.1:3000",
-    ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 MIDDLEWARE = [
