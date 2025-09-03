@@ -14,9 +14,13 @@ class PostListCreateView(ListCreateAPIView):
     serializer_class = PostSerializer
 
 @extend_schema(tags=["Posts"])
-class PostDetailView(RetrieveUpdateDestroyAPIView):
+class PostUpdateDeleteView(RetrieveUpdateDestroyAPIView):
     queryset = Posts.objects.all()
-    serializer_class = PostUpdateSerializer
-
     http_method_names = ["get", "patch", "delete"]
+    
+    def get_serializer_class(self):
+        if self.request.method == "GET":
+            return PostSerializer
+        return PostUpdateSerializer
+    
 
