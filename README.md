@@ -41,7 +41,7 @@ Additionally, it includes interactive documentation available on Swagger.
 1. Clone o repositório:
 
 ```
-git clone https://github.com/Duannee/codeleap-network
+git clone <URL_DO_REPOSITORIO>
 cd codeleap-network
 
 ```
